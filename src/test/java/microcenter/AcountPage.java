@@ -3,7 +3,7 @@ package microcenter;
 import Base.CommonAPI;
 import org.testng.annotations.Test;
 
-public class AcountPge extends CommonAPI {
+public class AcountPage extends CommonAPI {
 
 
     @Test

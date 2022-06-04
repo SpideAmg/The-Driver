@@ -1,5 +1,6 @@
 package Base;
 
+
 import org.checkerframework.checker.units.qual.A;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -17,6 +18,7 @@ import org.testng.annotations.Parameters;
 
 public class CommonAPI {
 
+
     static String currentDir = System.getProperty("user.dir");
 
     public WebDriver driver;
@@ -32,10 +34,11 @@ public class CommonAPI {
             }
         }else if (os.equalsIgnoreCase("mac")){
             if (browser.equalsIgnoreCase("chrome")){
-                System.setProperty("webdriver.chrome.driver", currentDir+"\\driver\\mac\\chromedriver");
+                System.setProperty("webdriver.chrome.driver", currentDir+"/driver/mac/chromedriver");
+               // System.setProperty("webdriver.chrome.driver","/Users/admin/Desktop/The-Base/driver/mac/chromedriver");
                 driver = new ChromeDriver();
             }else if (browser.equalsIgnoreCase("firefox")){
-                System.setProperty("webdriver.gecko.driver", currentDir+"\\driver\\mac\\geckodriver");
+                System.setProperty("webdriver.gecko.driver", currentDir+"/driver/mac/geckodriver");
                 driver = new FirefoxDriver();
             }
         }else if (os.equalsIgnoreCase("linux")){
@@ -57,10 +60,10 @@ public class CommonAPI {
         driver.get(url);
     }
 
-    @AfterMethod
-    public void tearDown(){
-        driver.close();
-    }
+          @AfterMethod
+          public void tearDown(){
+          driver.close();
+  }
 
     public String getPageTitle(){
         return driver.getTitle();

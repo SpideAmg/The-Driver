@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="microcenter smoke testing">
+    <parameter name="url" value="https://www.microcenter.com"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="os" value="mac"></parameter>
+    <test name="test1">
+        <classes>
+            <class name="microcenter.Homepage"></class>
+
+        </classes>
+
+    </test>
+
+    <test name="test2">
+        <classes>
+            <class name="microcenter.LoginTest"></class>
+
+        </classes>
+
+    </test>
+    <test name="test3">
+        <classes>
+            <class name="microcenter.AcountPage"></class>
+
+        </classes>
+
+    </test>
+
+    <test name="test4">
+        <classes>
+            <class name="microcenter.TopDeals"></class>
+
+        </classes>
+
+    </test>
+
+    <test name="test5">
+        <classes>
+            <class name="microcenter.TopDeals"></class>
+
+        </classes>
+
+    </test>
+
+    <test name="test6">
+        <classes>
+            <class name="microcenter.YourStore"></class>
+
+        </classes>
+
+    </test>
+    <test name="test7">
+        <classes>
+            <class name="microcenter.Clearance"></class>
+
+        </classes>
+
+    </test>
+
+</suite>

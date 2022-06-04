@@ -3,7 +3,7 @@ package microcenter;
 import Base.CommonAPI;
 import org.testng.annotations.Test;
 
-public class YourStore extends CommonAPI {
+public class FindLocation extends CommonAPI {
 
     @Test
     public void findStore_By_List() {
@@ -17,11 +17,12 @@ public class YourStore extends CommonAPI {
     @Test
     public void findStores_By_zipcode(){
         hoverOver("#siteSelections > div.rightItems.inline > ul.myStore.inline > li.title > div.storeDownArrow");
-       type("#findStoreZip", "11358");
-click("#findStoreButton");
+        type("#findStoreZip", "11358");
+        click("#findStoreButton");
         waitFor(2);
 
     }
 
 }
+
 

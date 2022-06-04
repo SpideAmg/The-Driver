@@ -36,22 +36,15 @@
 
     </test>
 
+
     <test name="test5">
         <classes>
-            <class name="microcenter.TopDeals"></class>
+            <class name="microcenter.FindLocation"></class>
 
         </classes>
 
     </test>
-
     <test name="test6">
-        <classes>
-            <class name="microcenter.YourStore"></class>
-
-        </classes>
-
-    </test>
-    <test name="test7">
         <classes>
             <class name="microcenter.Clearance"></class>
 

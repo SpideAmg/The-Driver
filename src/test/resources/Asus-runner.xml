@@ -8,7 +8,7 @@
     <test name="Login test">
         <classes>
             <class name="Apps.Asus.AddToCard"></class>
-            <class name="Apps.Asus.AMD_Motherboards"></class>
+<!--            <class name="Apps.Asus.AMD_Motherboards"></class>-->
 <!--            <class name="Asus.CollSys"></class>-->
 <!--            <class name="Asus.Community"></class>-->
 <!--            <class name="Asus.Eyecare"></class>-->

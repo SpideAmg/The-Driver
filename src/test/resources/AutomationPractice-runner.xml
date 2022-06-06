@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="DemoWebTest">
+    <parameter name="url" value="http://automationpractice.com/index.php"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="os" value="windows"></parameter>
+
+
+    <test name="SignIn">
+        <classes>
+            <class name="DemoWebsite.SignInTest"></class>
+        </classes>
+
+    </test>
+
+
+    <test name="ContactUS">
+        <classes>
+            <class name="DemoWebsite.ContactUsTest"></class>
+        </classes>
+
+    </test>
+    <test name="DressSection">
+        <classes>
+            <class name="DemoWebsite.DressSectionTest"></class>
+        </classes>
+
+    </test>
+        <test name="SearchBar">
+    <classes>
+        <class name="DemoWebsite.SearchBarTest"></class>
+    </classes>
+
+</test>
+
+    <test name="SocialMedia">
+    <classes>
+        <class name="DemoWebsite.SocialMediaSectionTest"></class>
+    </classes>
+
+</test><test name="Sorting">
+    <classes>
+        <class name="DemoWebsite.SortingTest"></class>
+    </classes>
+
+</test>
+
+
+    <test name="WomenSectionSubMenu">
+    <classes>
+        <class name="DemoWebsite.WomenSectionSubMenuTest"></class>
+    </classes>
+
+</test>
+
+    <test name="TshirtSection">
+        <classes>
+            <class name="DemoWebsite.TShirtsSectionTest"></class>
+        </classes>
+
+    </test>
+
+</suite>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Asus">
+    <parameter name="url" value="http://Asus.com"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="os" value="windows"></parameter>
+
+
+    <test name="login">
+        <classes>
+            <class name="Asus.LogPositiveT"></class>
+            <class name="Asus.LogNegativeT"></class>
+        </classes>
+
+    </test>
+
+
+<!--    <test name="Accessories">-->
+<!--        <classes>-->
+<!--            <class name="Asus.Keyboardwireless"></class>-->
+<!--            <class name="Asus.MicePad"></class>-->
+<!--        </classes>-->
+
+<!--    </test>-->
+<!--    <test name="Computer">-->
+<!--        <classes>-->
+<!--            <class name="Asus.PcHand"></class>-->
+<!--            <class name="Asus.PcsHome"></class>-->
+<!--        </classes>-->
+
+<!--    </test>-->
+<!--    <test name="Search and find">-->
+<!--        <classes>-->
+<!--            <class name="Asus.Search"></class>-->
+<!--            <class name="Asus.FindDriver"></class>-->
+<!--        </classes>-->
+
+<!--    </test>-->
+
+<!--    <test name="SocialMedia">-->
+<!--        <classes>-->
+<!--            <class name=""></class>-->
+<!--        </classes>-->
+
+<!--    </test><test name="Sorting">-->
+<!--    <classes>-->
+<!--        <class name=""></class>-->
+<!--    </classes>-->
+
+<!--</test>-->
+
+
+<!--    <test name="WomenSectionSubMenu">-->
+<!--        <classes>-->
+<!--            <class name=""></class>-->
+<!--        </classes>-->
+
+<!--    </test>-->
+
+<!--    <test name="TshirtSection">-->
+<!--        <classes>-->
+<!--            <class name=""></class>-->
+<!--        </classes>-->
+
+<!--    </test>-->
+
+</suite>

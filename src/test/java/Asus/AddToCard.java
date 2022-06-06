@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class AddToCard extends CommonAPI {
     @Test
-    public void add(){
+    public void addProductToCard(){
         click("#cookie-policy-info > div > div.cookie-btn-box > div.btn-asus.btn-ok.btn-read-ck");
         waitFor(2);
         click("#wrapperDesktop > div.HeaderDesktop__headerLayerTwo__356nX > div > div.HeaderDesktop__navContainer__2TkWh > div > div.headerIcon.HeaderDesktop__searchAndMemberFeatureItem__9yN6u.HeaderDesktop__member__Q9_HJ.HeaderDesktop__themeWhite__1bpoN");

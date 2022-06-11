@@ -3,7 +3,7 @@ package microcenter;
 import Base.CommonAPI;
 import org.testng.annotations.Test;
 
-public class FindLocation extends CommonAPI {
+public class FindLocatinTest extends CommonAPI {
 
     @Test
     public void findStore_By_List() {
@@ -24,5 +24,3 @@ public class FindLocation extends CommonAPI {
     }
 
 }
-
-

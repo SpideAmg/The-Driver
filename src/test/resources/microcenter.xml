@@ -7,7 +7,7 @@
     <parameter name="os" value="mac"></parameter>
     <test name="test1">
         <classes>
-            <class name="microcenter.Homepage"></class>
+            <class name="microcenter.SigninTest"></class>
 
         </classes>
 
@@ -15,14 +15,14 @@
 
     <test name="test2">
         <classes>
-            <class name="microcenter.LoginTest"></class>
+            <class name="microcenter.ClearanceTest"></class>
 
         </classes>
 
     </test>
     <test name="test3">
         <classes>
-            <class name="microcenter.AcountPage"></class>
+            <class name="microcenter.LoginTest"></class>
 
         </classes>
 
@@ -30,7 +30,7 @@
 
     <test name="test4">
         <classes>
-            <class name="microcenter.TopDeals"></class>
+            <class name="microcenter.TopDealsTest"></class>
 
         </classes>
 
@@ -39,14 +39,14 @@
 
     <test name="test5">
         <classes>
-            <class name="microcenter.FindLocation"></class>
+            <class name="microcenter.FindLocatinTest"></class>
 
         </classes>
 
     </test>
     <test name="test6">
         <classes>
-            <class name="microcenter.Clearance"></class>
+            <class name="microcenter.HomePageTest"></class>
 
         </classes>
 
